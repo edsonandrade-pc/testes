@@ -1,6 +1,6 @@
 # Foco Pomodoro Web
 
-App web simples para foco em blocos de 25 minutos.
+App web para foco em blocos de tempo com botões funcionais de **iniciar**, **pausar**, **resetar** e troca de modos (foco/pausa curta/pausa longa).
 
 ## Executar
 

@@ -12,11 +12,17 @@
       <p>25min de foco + pausas inteligentes.</p>
 
       <section class="timer-card">
+        <div class="modes" role="group" aria-label="Modo do temporizador">
+          <button class="mode-btn active" data-mode="focus">Foco 25</button>
+          <button class="mode-btn" data-mode="short">Pausa 5</button>
+          <button class="mode-btn" data-mode="long">Pausa 15</button>
+        </div>
         <div id="timer" class="timer">25:00</div>
+        <p id="status" class="status">Pronto para iniciar um ciclo de foco.</p>
         <div class="actions">
-          <button id="startBtn">Iniciar</button>
-          <button id="pauseBtn">Pausar</button>
-          <button id="resetBtn">Resetar</button>
+          <button id="startBtn" type="button">Iniciar</button>
+          <button id="pauseBtn" type="button">Pausar</button>
+          <button id="resetBtn" type="button">Resetar</button>
         </div>
       </section>
 

@@ -25,10 +25,32 @@ body {
   margin-top: 1rem;
 }
 
+.modes {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 0.8rem;
+}
+
+.mode-btn {
+  opacity: 0.9;
+}
+
+.mode-btn.active {
+  background: #8e63ff;
+  color: #fff;
+}
+
 .timer {
   font-size: 4rem;
   text-align: center;
   font-weight: 700;
+}
+
+.status {
+  text-align: center;
+  margin: 0.4rem 0 1rem;
+  opacity: 0.9;
 }
 
 .actions {
@@ -49,11 +71,26 @@ button {
   font-weight: 600;
 }
 
+#taskForm {
+  display: flex;
+  gap: 0.5rem;
+}
+
+#taskInput {
+  flex: 1;
+}
+
 li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  gap: 0.5rem;
+}
+
+.task-actions {
+  display: flex;
+  gap: 0.4rem;
 }
 
 li.done span {
